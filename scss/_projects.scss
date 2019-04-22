@@ -1,7 +1,8 @@
 $black75: rgba(0, 0, 0, .75);
+$boxshadowgrey: rgba(50, 50, 50, 0.75);
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 6rem 0;
   .featured-text {
     padding: 2rem;
     @media (min-width: 992px) {
@@ -25,5 +26,5 @@ $black75: rgba(0, 0, 0, .75);
 
 .main-project {
   // box-shadow: 1px 1px 3px 0 $black75;
-  box-shadow: 0 0 10px 0 rgba(50, 50, 50, 0.75);
+  box-shadow: 0 0 10px 0 $boxshadowgrey;
 }
