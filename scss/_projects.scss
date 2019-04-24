@@ -2,7 +2,7 @@ $black75: rgba(0, 0, 0, .75);
 $boxshadowgrey: rgba(50, 50, 50, 0.75);
 
 .projects-section {
-  padding: 6rem 0;
+  padding: 3rem 0 6rem 0;
   .featured-text {
     padding: 2rem;
     @media (min-width: 992px) {
@@ -24,7 +24,13 @@ $boxshadowgrey: rgba(50, 50, 50, 0.75);
   }
 }
 
-.main-project {
-  // box-shadow: 1px 1px 3px 0 $black75;
-  box-shadow: 0 0 10px 0 $boxshadowgrey;
+.project-title {
+  font-size: 3rem;
+  padding: 0 0 3rem 0;
+  text-align: center;
 }
+
+// .main-project {
+//   // box-shadow: 1px 1px 3px 0 $black75;
+//   box-shadow: 0 0 10px 0 $boxshadowgrey;
+// }

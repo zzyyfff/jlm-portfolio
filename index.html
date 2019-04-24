@@ -42,7 +42,7 @@
             <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -71,8 +71,8 @@
         <div class="col-lg-2"></div>
         <div class="col-lg-6 d-flex flex-column justify-content-center">
           <!-- <h2 class="text-white mb-4">Built with Bootstrap 4</h2> -->
-          <p class="text-white m-0">Hello! I’m a Software Engineer with a background in clinical medicine, multimedia art, interaction design, and teaching. I love using logic, big systems thinking, and compassion to solve problems of all kinds, building
-            things that are good for people. <br><br>
+          <p class="text-white m-0">Hello! I’m a Software Engineer with a background in clinical medicine, multimedia art, interaction design, and teaching. I love using logic, big systems thinking, and compassion to solve problems of all kinds,
+            <strong><em><u>building things that are good for people</u>.</em></strong><br><br>
             While deepening my skills as a developer, I’ve also become fascinated by Product Management, supporting a diverse team in building the right things, finding the metaphors that help everyone get on the same page, and nurturing positive
             organization.</p>
         </div>
@@ -85,24 +85,34 @@
   <section id="projects" class="projects-section bg-light">
     <div class="container">
 
-      <!-- Featured Project Row -->
-      <div class="row align-items-center no-gutters mb-4 mb-lg-5 p-3 main-project">
-        <div class="col-xl-8 col-lg-7">
+      <div class="project-title">
+        Projects
+      </div>
+
+      <!-- Project One Row -->
+      <div class="row justify-content-center no-gutters">
+        <div class="col-lg-6">
           <a href="https://zzyyfff.github.io/chat-client" target="_blank">
             <img class="img-fluid mb-3 mb-lg-0" src="img/chat-1.png" alt="">
           </a>
         </div>
-        <div class="col-xl-4 col-lg-5">
-          <div class="featured-text text-center text-lg-left">
-            <a href="https://zzyyfff.github.io/chat-client" target="_blank">
-              <h4><u>∿Chat</u></h4>
-              <p class="text-black-50 mb-0">A featureful real-time chat app, providing users the opportunity to edit their messages on the fly. Built with React, Express, Mongoose, and MongoDB.</p>
-            </a>
+        <div class="col-lg-6 order-lg-first">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-right">
+                <a href="https://zzyyfff.github.io/chat-client" target="_blank">
+                  <h4 class="text-white">∿Chat</h4>
+                </a>
+                <p class="text-white-50 mb-0">A featureful real-time chat app, providing users the opportunity to edit their messages on the fly. Built with React, Express, Mongoose, and MongoDB.</p><br/>
+                <p class="text-white-50">(<a href="https://github.com/zzyyfff/chat-client">Repo on Github</a>)</p>
+                <hr class="d-none d-lg-block mb-0 mr-0">
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      <!-- Project One Row -->
+      <!-- Project Two Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
           <a href="https://2jar.github.io/photo-jar-client" target="_blank">
@@ -115,8 +125,9 @@
               <div class="project-text w-100 my-auto text-center text-lg-left">
                 <a href="https://2jar.github.io/photo-jar-client" target="_blank">
                   <h4 class="text-white">Photo Jar</h4>
-                  <p class="mb-0 text-white-50">A photo storage and sharing app with geolocation intergration. Built with JavaScript, jQuery, HTML, SASS, Express, Mongoose, MongoDB, and AWS.</p>
                 </a>
+                  <p class="mb-0 text-white-50">A photo storage and sharing app with geolocation intergration. Built with JavaScript, jQuery, HTML, SASS, Express, Mongoose, MongoDB, and AWS.</p><br/>
+                  <p class="text-white-50">(<a href="https://github.com/2jar/photo-jar-client">Repo on Github</a>)</p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
             </div>
@@ -124,7 +135,7 @@
         </div>
       </div>
 
-      <!-- Project Two Row -->
+      <!-- Project Three Row -->
       <div class="row justify-content-center no-gutters">
         <div class="col-lg-6">
           <a href="https://zzyyfff.github.io/scouting-advancement-tracker-client" target="_blank">
@@ -137,8 +148,9 @@
               <div class="project-text w-100 my-auto text-center text-lg-right">
                 <a href="https://zzyyfff.github.io/scouting-advancement-tracker-client" target="_blank">
                   <h4 class="text-white">Scout-Tracker</h4>
-                  <p class="mb-0 text-white-50">A scouting achievement and merit badge tracker, with a RESTful backend. Built with Ruby, Rails, & PostgreSQL and a frontend includes JavaScript, jQuery, and SASS.</p>
                 </a>
+                  <p class="mb-0 text-white-50">A scouting achievement and merit badge tracker, with a RESTful backend. Built with Ruby, Rails, & PostgreSQL and a frontend includes JavaScript, jQuery, and SASS.</p><br/>
+                  <p class="text-white-50">(<a href="https://github.com/zzyyfff/scouting-advancement-tracker-client">Repo on Github</a>)</p>
                 <hr class="d-none d-lg-block mb-0 mr-0">
               </div>
             </div>
@@ -150,45 +162,34 @@
   </section>
 
   <!-- Contact Section -->
-  <section class="contact-section bg-black">
+  <section id="contact" class="contact-section bg-black">
     <div class="container">
       <div class="row">
         <div class="col-12 mx-auto text-center">
 
           <div class="row">
 
-            <div class="col-md-4 mb-3 mb-md-0">
-              <div class="card py-4 h-100">
-                <div class="card-body text-center">
-                  <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                  <h4 class="text-uppercase m-0">Address</h4>
-                  <hr class="my-4">
-                  <div class="small text-black-50">23 William St., Cambridge MA</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 mb-3 mb-md-0">
+            <div class="col-md-6 mb-3 mb-md-0">
               <div class="card py-4 h-100">
                 <div class="card-body text-center">
                   <i class="fas fa-envelope text-primary mb-2"></i>
                   <h4 class="text-uppercase m-0">Email</h4>
                   <hr class="my-4">
                   <div class="small text-black-50">
-                    <a href="mailto:jonathan.marcus@gmail.com">jonathan.marcus@gmail.com</a>
+                    <a href="mailto:&#106;&#111;&#110;&#097;&#116;&#104;&#097;&#110;&#046;&#109;&#097;&#114;&#099;&#117;&#115;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#106;&#111;&#110;&#097;&#116;&#104;&#097;&#110;&#046;&#109;&#097;&#114;&#099;&#117;&#115;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-md-4 mb-3 mb-md-0">
+            <div class="col-md-6 mb-3 mb-md-0">
               <div class="card py-4 h-100">
                 <div class="card-body text-center">
                   <i class="fas fa-mobile-alt text-primary mb-2"></i>
                   <h4 class="text-uppercase m-0">Phone</h4>
                   <hr class="my-4">
                   <div class="small text-black-50">
-                    <a href="tel:+15183342014">+1 (518) 334-2014</a>
+                    <a href="tel:+&#049;&#053;&#049;&#056;&#051;&#051;&#052;&#050;&#048;&#049;&#052;">+&#049;&#032;(&#053;&#049;&#056;)&#032;&#051;&#051;&#052;&#045;&#050;&#048;&#049;&#052;</a>
                   </div>
                 </div>
               </div>
