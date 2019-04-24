@@ -177,7 +177,7 @@
 }
 
 .projects-section {
-  padding: 6rem 0;
+  padding: 3rem 0 6rem 0;
 }
 
 .projects-section .featured-text {
@@ -206,9 +206,10 @@
   }
 }
 
-.main-project {
-  -webkit-box-shadow: 0 0 10px 0 rgba(50, 50, 50, 0.75);
-  box-shadow: 0 0 10px 0 rgba(50, 50, 50, 0.75);
+.project-title {
+  font-size: 3rem;
+  padding: 0 0 3rem 0;
+  text-align: center;
 }
 
 .signup-section {
